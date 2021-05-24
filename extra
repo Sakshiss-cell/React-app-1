@@ -1,0 +1,150 @@
+
+  
+https://github.com/Aakashdeveloper
+https://nodejs.org/en/
+https://nodejs.org/en/
+
+Basic JavaScript
+Npm
+React = 3
+Mock API
+json-server
+React-GraphQL-1
+React-JWT(Login Logout)-2
+Depolyment
+-> MERN
+-> Docker
+-> heroku
+-> Nginx
+Github
+React_hooks -1
+Basic React Native=1
+React-Redux =1
+React-Redux =1
+Testing Jest Enzime
+React-Saga -1
+React-with-typescript-1
+--------NOT Backend--------------
+API
+GraphQL
+Login/Logout
+
+React is a frontend lib/framework that help to build 
+single page application using component base structure
+
+open source
+
+npm > node package manager
+
+///////////////////
+JSON > JavaScript Object Notation
+[
+    {
+        name:"Keev",
+        class:"UI"
+    },
+    {
+        name:"Rahul",
+        class:"Node"
+    }
+]
+
+/////////////////
+package.json
+
+> Entry Point to application
+> Meta Data(name,description,version)
+> packages
+> script(start,test,build)
+
+///////////////
+How to generate package.json
+//////////////////
+**NodeJs must be install
+> go inside the folder using cmd 
+> type npm init 
+> answer all questions
+> type "yes"
+
+///////////////
+Step to install packages
+//////////////////
+**NodeJs must be install
+> go inside the folder using cmd 
+> npm i packagename
+
+npm uninstall packagename
+
+
+///////////////
+Step to generate React app
+////////////////// 
+#window
+///One Time Step////
+> open cmd as admin
+> npm i -g create-react-app 
+
+///Next Every Time You want to generate app ////
+> open cmd 
+> go inside folder where you want app 
+> create-react-app  appname
+
+#mac/linux
+///One Time Step////
+> open terminal
+> sudo npm i -g create-react-app 
+
+///Next Every Time You want to generate app ////
+> open cmd 
+> go inside folder where you want app 
+> create-react-app  appname
+
+///////////////
+Step to run React app
+////////////////// 
+> open cmd
+> go inside your app 
+> npm start 
+> http://localhost:3000/
+
+> npx create-react-app
+
+
+"react": this is main lib 
+"react-dom":  this help to display content 
+"react-scripts": this help to run the app
+
+
+function add(a,b){
+    return a,b
+}
+
+add(1,2)
+
+parent > child   >>>> we use props to pass data 
+child > parent
+
+//////////////
+class component
+    > Logical Component
+    > use to call api, manage logic and display 
+    > it can maintain state
+
+functional component
+    > Dumb component
+    > we use for display purpose
+    > it cannot maintain state
+
+
+Hooks
+
+///////////////////////
+state
+    > local variable
+    > any data interaction will happen through state
+    > mutable( we can change the value in state)
+
+props
+    > use to transport state/data
+    > immutable(we cannot change the date of props )
+    > it can only transfer data btw the nested component
